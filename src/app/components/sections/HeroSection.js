@@ -43,7 +43,7 @@ const HeroSection = () => {
 
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tight mb-6 sm:mb-8 text-white leading-[1.05] max-w-5xl balance-text">
           <span className="block sm:inline sm:mr-4 opacity-90">I&apos;m</span>
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-400 to-purple-600 drop-shadow-[0_0_40px_rgba(168,85,247,0.25)] tracking-tighter">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-400 to-purple-600 drop-shadow-[0_0_40px_rgba(168,85,247,0.25)] tracking-tighter px-4 py-2 -mx-4 -my-2 inline-block">
             {profile.name}
           </span>
         </h1>
