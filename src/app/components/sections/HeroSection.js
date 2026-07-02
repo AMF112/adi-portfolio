@@ -33,17 +33,17 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative w-full min-h-[70vh] flex items-center justify-center py-6 sm:py-14 md:py-16 px-4 sm:px-6 overflow-hidden bg-transparent">
-      <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center px-4 sm:px-8">
+    <section className="relative w-full min-h-[85vh] flex items-center justify-center py-12 sm:py-20 px-4 sm:px-6 overflow-hidden bg-transparent">
+      <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center">
         
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/[0.03] backdrop-blur-md mb-3 sm:mb-5 md:mb-6 shadow-[0_0_15px_rgba(168,85,247,0.1)]">
-          <span className="w-1 h-1 rounded-full bg-purple-500 animate-ping" />
-          <span className="text-[9px] font-black uppercase tracking-[0.25em] text-purple-300/90">Available For Opportunities</span>
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/[0.04] backdrop-blur-md mb-6 sm:mb-8 shadow-[0_0_15px_rgba(168,85,247,0.08)]">
+          <span className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse" />
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-purple-200/90">Available For Opportunities</span>
         </div>
 
-        <h1 className="text-6xl leading-[1.15] sm:text-7xl md:text-8xl font-black tracking-tighter mb-2 sm:mb-4 text-white max-w-4xl whitespace-normal break-words">
-          <span className="font-black tracking-tighter mr-2 sm:mr-4 inline">I&apos;m</span>{" "}
-          <span className="bg-clip-text text-transparent bg-linear-to-r from-purple-300 via-purple-500 to-purple-600 drop-shadow-[0_0_30px_rgba(168,85,247,0.35)] px-1 py-1 sm:py-3 inline pb-3">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tight mb-6 sm:mb-8 text-white leading-[1.05] max-w-5xl balance-text">
+          <span className="block sm:inline sm:mr-4 opacity-90">I&apos;m</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-400 to-purple-600 drop-shadow-[0_0_40px_rgba(168,85,247,0.25)] tracking-tighter">
             {profile.name}
           </span>
         </h1>
